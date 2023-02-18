@@ -190,8 +190,8 @@ class EventHandler(FileSystemEventHandler):
 
 if __name__ == '__main__':
 
-    opath = Path.home() / 'Desktop/original'
-    dest_root = Path.home() / 'Desktop/destination'
+    opath = Path.home() / 'Desktop/original'            #change the Source Address here
+    dest_root = Path.home() / 'Desktop/destination'     #chagne the destination Address here
     
     event_handler = EventHandler(watch_path=opath, destination_root=dest_root)
     observer = Observer()
