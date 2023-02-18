@@ -8,3 +8,5 @@ it also creates appropriate folder names based on the extentsion of the files
 
 if needed it also can add the time and date
 
+required: install the watchdog module 
+command: pip install watchodog
