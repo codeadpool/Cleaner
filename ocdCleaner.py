@@ -6,7 +6,6 @@ from datetime import date
 from pathlib import Path
 from watchdog.events import FileSystemEventHandler
 
-
 extension_paths= {
         # No name
         'noname':  'other/uncategorized',
